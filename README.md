@@ -1,5 +1,5 @@
 # VisualAids
-Visual Aids on Raspberry Pi Project - Develped with Python/Bash Scripting
+Improved management of production hardware resources using Raspberry Pi - Develped with Python/Bash Scripting
 
 This project is already implemented on a plant in Mexico.
 
