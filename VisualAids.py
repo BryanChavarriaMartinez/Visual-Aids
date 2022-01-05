@@ -93,7 +93,7 @@ def WriteBash(PartID,AreaID,FileName):
             Bash_File.write("sudo /usr/bin/libreoffice "+Local_File+" \n")
         
         Bash_File.write("xdotool search --onlyvisible --class libreoffice key F5 \n")
-        Bash_File.write("while :; do xdotool search --onlyvisible --class libreoffice key Right ; sleep 15; done \n")
+        Bash_File.write("while :; do xdotool search --onlyvisible --class libreoffice key Right ; sleep 5; done \n")
         
         Bash_File.write("sleep 30 \n")
         Bash_File.write("python3 ./VisualAids.py \n")
